@@ -1,0 +1,22 @@
+[1] Start synthetic demo
+    Fixture data only. No network requests or real accounts.
+
+[2] Load sample organization and agent
+    organization: org-example
+    agent: agent-example
+
+[3] Apply a sample permission
+    allowed action: read-status
+
+[4] Check permitted action
+    read-status -> authorised: true
+
+[5] Check denied action
+    send-payment -> authorised: false
+
+[6] Finish demonstration
+    All results are synthetic fixtures.
+
+=====
+Synthetic demo complete.
+=====

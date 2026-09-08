@@ -1,0 +1,11 @@
+This demonstration uses synthetic fixture data. It does not connect to any service.
+
+The fixture defines a sample organization and a sample agent.
+
+The agent receives permission to read a sample status.
+
+The permitted action returns true.
+
+A different action returns false because it has no permission.
+
+The demonstration is complete. Every result shown was synthetic.

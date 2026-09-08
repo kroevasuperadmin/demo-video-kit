@@ -1,0 +1,7 @@
+.env
+work/
+voice/
+*.mp4
+*.webm
+*.check.mp3
+__pycache__/

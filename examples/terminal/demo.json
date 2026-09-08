@@ -1,0 +1,21 @@
+{
+  "title": "Synthetic permissions demo",
+  "output": "synthetic-terminal-demo.mp4",
+  "narration": "narration.txt",
+  "max_seconds": 180,
+  "voice": "voice_3",
+  "source": {
+    "type": "terminal",
+    "run": "run.txt",
+    "section_regex": "^\\[\\d+\\]",
+    "tail_marker": "=====",
+    "intro_line": "$ example-demo --synthetic"
+  },
+  "highlight": {
+    "PAY": "g",
+    "REFUSE": "r",
+    "authorised: true": "g",
+    "authorised: false": "r",
+    "null, refused": "r"
+  }
+}

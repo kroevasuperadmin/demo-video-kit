@@ -1,0 +1,14 @@
+{
+  "title": "mermail demo",
+  "output": "mermail-demo.mp4",
+  "narration": "narration.txt",
+  "max_seconds": 90,
+  "source": {
+    "type": "slides",
+    "dir": "shots",
+    "segments": [
+      { "image": "01.png", "caption": "An email that gives the AI orders" },
+      { "image": "02.png", "caption": "Reported, not obeyed" }
+    ]
+  }
+}
